@@ -1,0 +1,35 @@
+# 依赖
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# 构建产物
+dist/
+build/
+coverage/
+*.egg-info/
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# 环境变量与凭据
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# 日志与临时文件
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
