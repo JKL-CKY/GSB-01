@@ -1,0 +1,15 @@
+{
+  "name": "gsb-hrm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "智汇 HRM —— 本地前后端分离的人力资源管理平台（Vue 3 + Express + SQLite）",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../web && npm install",
+    "initdb": "cd server && npm run initdb",
+    "initdb:force": "cd server && npm run initdb:force",
+    "dev:server": "cd server && npm run dev",
+    "dev:web": "cd web && npm run dev",
+    "start:server": "cd server && npm start",
+    "build:web": "cd web && npm run build"
+  }
+}
